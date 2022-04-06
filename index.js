@@ -2,7 +2,7 @@ const Eris = require('eris');
 
 const keepAlive = require("./server.js")
 
-const bot = new Eris("OTYwNDQ3NTg2ODA2OTU2MDk0.Yk2-7Q.xSAxIsRdj7-9WUDeyU3LIBLjHy8", {
+const bot = new Eris("OTYwNDQ3NTg2ODA2OTU2MDk0.Yk3CUA.e4-nGQDzn6ZrQBQ7jmLF4houetM", {
   intents: ["guilds", "guildPresences", "guildMembers", "guildMessages"],
   getAllUsers: true
 });
